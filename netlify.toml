@@ -2,6 +2,12 @@
 directory = "functions"
 
 [[redirects]]
+from = "https://hopeful-mayer-f69aa1.netlify.app/"
+to = "https://ss.sngr.dev/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/*"
 to = "/.netlify/functions/screenshot"
 status = 200
